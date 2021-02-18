@@ -25,7 +25,7 @@ public class TestController {
 
     @GetMapping("test1")
     public String hi(String name) {
-        return remoteClient.helloNacos(name) + test;
+        return remoteClient.helloNacos(name);
 //        return "hi" + name + " ,i am " + provider + "he is " + test;
     }
 }

@@ -9,7 +9,5 @@ spring:
         prefix: ${spring.application.name}
         server-addr: 127.0.0.1:8848
         file-extension: yaml
-        shared-dataids: test1.yaml,test2.yaml
-        refreshable-dataids: test1.yaml,test2.yaml
 server:
   port: 8662
