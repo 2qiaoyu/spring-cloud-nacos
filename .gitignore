@@ -24,3 +24,5 @@
 /nbdist/
 /.nb-gradle/
 /logs/
+/spring-cloud-nacos-consumer/target/
+/spring-cloud-nacos-provider/target/

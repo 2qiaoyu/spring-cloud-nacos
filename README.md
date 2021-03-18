@@ -1,8 +1,8 @@
-## SpringCloud集成Nacos和Sentinel
+## SpringCloud集成Nacos和Sentinel和seata
 ### 版本
-* jdk 1.80_231
-* Spring Boot 2.1.9.RELEASE
-* Spring Cloud Greenwich.SR5
+* jdk 1.80_271
+* Spring Boot 2.2.4.RELEASE
+* Spring Cloud Hoxton.SR1
 * Mysql 5.6
 
 ### 模块
@@ -27,3 +27,11 @@ sentinel
 sentinel
 
 http://localhost:8661/test/sentinel?name=joham
+
+`sh /Applications/seata/bin/seata-server.sh -p 8091`
+
+http://localhost:8662/test2?userId=1001&money=100
+
+http://localhost:8662/create?userId=1001&commodityCode=1&count=1
+
+http://localhost:8662/create?userId=1111&commodityCode=1&count=1
